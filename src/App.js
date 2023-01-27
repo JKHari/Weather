@@ -49,7 +49,7 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="w-full bg-cover h-screen mx-auto bg-back bg-center  shadow-xl flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center w-full h-screen mx-auto bg-center bg-cover shadow-xl bg-back">
           <Title />
           <Form getWeather={this.getWeather} />
           <Weather

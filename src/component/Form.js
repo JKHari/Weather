@@ -3,11 +3,11 @@ import React from "react";
 function Form(props) {
   return (
     <React.Fragment>
-      <div className="w-10/12 mx-auto flex justify-center ">
+      <div className="flex justify-center w-10/12 mx-auto ">
         <form onSubmit={props.getWeather} className="space-x-3">
-          <input type="text" placeholder="Enter the longitude.." className=" bg-white p-1  border  border-yellow-200 text-gray-600 hover:border-yellow-500 outline-none" />
-          <input type="text" placeholder="Enter the lotitude.." className=" bg-white p-1  border  border-yellow-200  hover:border-yellow-500 outline-none"/>
-          <button className="text-white bg-green-300 px-3 py-1">Get Waether</button>
+          <input type="text" placeholder="Enter the longitude.." className="p-1 text-gray-600 border border-yellow-200 outline-none bg-slate-50 hover:border-yellow-500" />
+          <input type="text" placeholder="Enter the lotitude.." className="p-1 border border-yellow-200 outline-none bg-slate-50 hover:border-yellow-500"/>
+          <button className="px-3 py-1 text-white bg-green-600 hover:bg-green-500">Get Waether</button>
         </form>
       </div>
     </React.Fragment>

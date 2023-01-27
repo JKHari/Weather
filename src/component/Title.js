@@ -1,8 +1,8 @@
 import React from "react";
 
 const Title = (props) => (
-  <div className="w-full mx-auto flex justify-center ">
-    <h1 className="text-2xl p-5 text-green-600">Weather Finder</h1>
+  <div className="flex justify-center w-full mx-auto ">
+    <h1 className="p-5 text-2xl text-green-600 text-bold">Weather Finder</h1>
   </div>
 );
 
